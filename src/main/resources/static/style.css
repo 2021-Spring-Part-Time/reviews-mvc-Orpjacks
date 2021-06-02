@@ -1,0 +1,66 @@
+
+.about {
+    background: #898989;
+    text-align: center;
+    border: 3px solid grey;
+    color: white;
+}
+
+div{
+    border: 1px solid grey;
+    text-align: center;
+    margin: 20px;
+    padding: 8px;
+    padding-left:5px;
+    background:#e2e2e2;
+    opacity: 0.9;
+
+}
+
+p{
+    margin-top: -6px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h2{
+    padding = 2px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+img {
+    border: 1px solid grey;
+    max-width:40%;
+    height:auto;
+}
+
+.content{
+  width: 300px;
+  border: 1px solid grey;
+  margin: auto;
+  text-align: left
+
+}
+
+dt{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.2em;
+    padding = 4px;
+}
+
+body{
+background-image: url("/images/Destin.jpg");
+height: 100%;
+weight: auto;
+}
+
+}
