@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" http-equip="Content-Type" content="text/html">
+    <title>Review Template</title>
+    <link rel="stylesheet" href="" th:href="@{/style.css}">
+</head>
+<body>
+<div class="about">
+<h1> All Sites Review</h1>
+<p> The review is about our past trip to several  beaches during summer break, what we liked the most and the least.</p>
+    <a th:href="@{welcome}"> back to welcome page </a>
+</div>
+<div th:each="review: ${reviews}">
+    <h2 th:text=" ${review.title}"></h2>
+    <img th:src="${review.urlimg}">;
+    <a th:href="${review.url}"><h3>Visit Website</h3></a>
+    <h4 th:text="'Category: '"></h4>
+    <p th:text="${review.reviewCategory}"></p>
+    <h4 th:text="'Favorite Spots: '"></h4>
+    <p th:text=" ${review.favoriteSpot}"></p>
+    <h4 th:text="'Review: '"></h4>
+    <p th:text="${review.descriptions}"></p>
+</div>
+</body>
+</html>

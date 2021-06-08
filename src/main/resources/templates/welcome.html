@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" http-equip="Content-Type" content="text/html">
+    <title>Getting Started with Spring MVC</title>
+    <link rel="stylesheet" href="" th:href="@{/style.css}">
+</head>
+<body>
+
+<div>
+<h1 th:text="'Welcome to my review site ' + ${name}"></h1>
+    <p> This review is about our past trip to several beaches during summer break.</p>
+</div>
+
+<div class="content">
+    <ol>
+        <dt> <a th:href="@{reviews}"> See all review </a></dt>
+        <dt><a th:href="@{reviews/1}"> Outerbanks review </a></dt>
+        <dt><a th:href="@{reviews/2}"> Oceancity review </a></dt>
+        <dt><a th:href="@{reviews/3}"> Destin review </a></dt>
+        <dt><a th:href="@{reviews/4}"> Myrtle review </a></dt>
+
+    </ol>
+
+
+</div>
+
+</body>
+</html>
+
+
+    <
